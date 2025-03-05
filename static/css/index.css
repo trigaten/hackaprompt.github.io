@@ -178,7 +178,7 @@ body {
 }
 
 .award-pill:hover {
-  background-color: #3e4d20;
+  background-color: #058769;
   transform: translateY(-2px);
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
