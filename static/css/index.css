@@ -155,3 +155,36 @@ body {
 #interpolation-image-wrapper img {
   border-radius: 5px;
 }
+
+/* Award banner styling */
+.award-banner {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 15px 0;
+}
+
+.award-pill {
+  display: inline-flex;
+  align-items: center;
+  background-color: #07A27E;
+  color: white !important;
+  padding: 8px 20px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  transition: all 0.3s ease;
+}
+
+.award-pill:hover {
+  background-color: #058769;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.award-icon {
+  color: #fff;
+  margin-right: 8px;
+  font-size: 1.2em;
+}
